@@ -37,6 +37,16 @@ export default function TeamMembers() {
         }
     ];
 
+    // Faculty collaborators data
+    const facultyCollaborators = [
+        {
+            name: "Dr. Natasha Bell",
+            email: "natashabell@vt.edu",
+            role: "Faculty Collaborator",
+            photo: "/team/Natasha_bell.jpeg" // Add her photo to the public/team directory
+        }
+    ];
+
     return (
         <Layout title="LEWAS Lab - Team Members">
             <div className="team-container">
@@ -64,6 +74,33 @@ export default function TeamMembers() {
                                 <h3>{member.name}</h3>
                                 <p className="member-role">{member.role}</p>
                                 <p className="member-email">{member.email}</p>
+                            </div>
+                        </div>
+                    ))}
+                </div>
+
+                {/* Divider line */}
+                <div className="team-divider"></div>
+
+                {/* Faculty Collaborators Section */}
+                <h3 className="section-title">Faculty Collaborators</h3>
+                <div className="team-grid">
+                    {facultyCollaborators.map((collaborator, index) => (
+                        <div key={`collaborator-${index}`} className="team-member-card">
+                            <div className="member-photo">
+                                {/* If photo is not available, show initials */}
+                                {collaborator.photo ? (
+                                    <img src={collaborator.photo} alt={collaborator.name} />
+                                ) : (
+                                    <div className="member-initials">
+                                        {collaborator.name.split(' ').map(n => n[0]).join('')}
+                                    </div>
+                                )}
+                            </div>
+                            <div className="member-info">
+                                <h3>{collaborator.name}</h3>
+                                <p className="member-role">{collaborator.role}</p>
+                                <p className="member-email">{collaborator.email}</p>
                             </div>
                         </div>
                     ))}
