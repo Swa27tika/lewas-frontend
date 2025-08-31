@@ -1,64 +1,140 @@
 // src/pages/index.js
 import Layout from '../components/Layout';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Home() {
   return (
     <Layout title="LEWAS Lab Environmental Monitoring">
       <div className="home-container">
-        {/* Hero Section */}
-        <section className="hero-section">
-          <div className="hero-content">
-            <h1 className="hero-title">LEWAS Lab</h1>
-            <h2 className="hero-subtitle">Environmental Monitoring Dashboard</h2>
-            <p className="hero-description">
-              Real-time environmental sensor data from Stroubles Creek, providing
-              continuous monitoring and insights into water quality and environmental conditions.
+        {/* Main Content Section */}
+        <section className="main-content-section">
+          <div className="content-text">
+            <p style={{ 
+              maxWidth: '90vw', 
+              width: '90vw', 
+              minWidth: '90vw',
+              margin: '0 0 1.5rem 0',
+              fontSize: '1.1rem',
+              color: '#2c3e50',
+              lineHeight: '1.8',
+              textAlign: 'justify'
+            }}>
+              The Learning Enhanced Watershed Assessment System (LEWAS) is a unique real-time water and weather monitoring system. 
+              The system has developed from NSF grants, namely DLR, TUES, REU, and RET sites. The purpose of LEWAS is to enhance 
+              water sustainability education and research at Virginia Tech.
+            </p>
+            <p style={{ 
+              maxWidth: '90vw', 
+              width: '90vw', 
+              minWidth: '90vw',
+              margin: '0 0 1.5rem 0',
+              fontSize: '1.1rem',
+              color: '#2c3e50',
+              lineHeight: '1.8',
+              textAlign: 'justify'
+            }}>
+              The LEWAS monitoring site is installed at the outfall of the Webb Branch watershed on Virginia Tech's campus. 
+              Webb Branch is an urban stream with a 2.78 square kilometer (about one square mile) watershed consisting of 
+              residential and commercial properties. The stream is routed through man-made channels and culverts until it 
+              discharges at the LEWAS monitoring site.
             </p>
           </div>
-        </section>
-
-        {/* Main Navigation Cards */}
-        <section className="navigation-section">
-          <div className="nav-grid">
-            <Link href="/live-data" className="nav-card nav-card-link primary">
-              <div className="nav-card-icon">📊</div>
-              <h3>Live Creek Data</h3>
-              <p>View real-time environmental sensor data from Stroubles Creek</p>
-              <span className="nav-card-arrow">→</span>
-            </Link>
-
-            <Link href="/chatbot" className="nav-card nav-card-link secondary">
-              <div className="nav-card-icon">🤖</div>
-              <h3>LEWAS Chatbot</h3>
-              <p>Get instant answers about environmental data and research</p>
-              <span className="nav-card-arrow">→</span>
-            </Link>
-
-            <Link href="/team" className="nav-card nav-card-link tertiary">
-              <div className="nav-card-icon">👥</div>
-              <h3>Our Team</h3>
-              <p>Meet the researchers and scientists behind LEWAS Lab</p>
-              <span className="nav-card-arrow">→</span>
-            </Link>
+          
+          {/* Image Section */}
+          <div className="image-section">
+            <Image 
+              src="/images/stroubles_watershed.png" 
+              alt="Stroubles Watershed at Virginia Tech Campus" 
+              width={0}
+              height={0}
+              sizes="28.8vw"
+              priority
+              className="watershed-image"
+              style={{ width: '28.8%', height: 'auto' }}
+            />
           </div>
-        </section>
 
-        {/* Additional Info Section */}
-        <section className="info-section">
-          <div className="info-grid">
-            <div className="info-card">
-              <h4>Real-Time Monitoring</h4>
-              <p>Continuous 24/7 data collection from multiple environmental sensors</p>
-            </div>
-            <div className="info-card">
-              <h4>Research Focus</h4>
-              <p>Supporting environmental research and water quality studies</p>
-            </div>
-            <div className="info-card">
-              <h4>Open Data</h4>
-              <p>Accessible environmental data for research and educational purposes</p>
-            </div>
+          {/* Additional Text Section */}
+          <div className="additional-text">
+            <p style={{ 
+              maxWidth: '90vw', 
+              width: '90vw', 
+              minWidth: '90vw',
+              margin: '0 0 1.5rem 0',
+              fontSize: '1.1rem',
+              color: '#2c3e50',
+              lineHeight: '1.8',
+              textAlign: 'justify'
+            }}>
+              In order to capture the acute hydrologic activity due to impervious pavement in urban watersheds, the monitoring station collects water quality and flow data at high frequencies. A water quality Sonde collects water temperature, pH, dissolved oxygen, turbidity, specific conductivity, and oxidation reduction potential data every three minutes. An acoustic Doppler current profiler (ADCP) collects velocity of the water every minute which is used to calculate the stream's flow rate. These parameters, along with weather data from the Vaisala transmitter and videos from the on-site camera, provide an opportunity for individuals to experience the health of the urban stream and watershed.
+            </p>
+          </div>
+
+          {/* Site Image Section */}
+          <div className="site-image-section">
+            <Image 
+              src="/images/site.png" 
+              alt="LEWAS Monitoring Site" 
+              width={0}
+              height={0}
+              sizes="28.8vw"
+              priority
+              className="site-image"
+              style={{ width: '28.8%', height: 'auto' }}
+            />
+          </div>
+
+          {/* Third Text Block Section */}
+          <div className="third-text-block">
+            <p style={{ 
+              maxWidth: '90vw', 
+              width: '90vw', 
+              minWidth: '90vw',
+              margin: '0 0 1.5rem 0',
+              fontSize: '1.1rem',
+              color: '#2c3e50',
+              lineHeight: '1.8',
+              textAlign: 'justify'
+            }}>
+              The LEWAS monitoring station is unique because the instant the data is collected from the sensors individuals can view it online. A Raspberry Pi is a microcontroller at the monitoring station connected to the sensors and wireless internet router. The data travels from the sensors through Virginia Tech's wireless network into the LEWAS database. The Online Watershed Learning System (OWLS) is a website which allows students, researchers, or community members to view and download the real-time data.
+            </p>
+            <p style={{ 
+              maxWidth: '90vw', 
+              width: '90vw', 
+              minWidth: '90vw',
+              margin: '0 0 1.5rem 0',
+              fontSize: '1.1rem',
+              color: '#2c3e50',
+              lineHeight: '1.8',
+              textAlign: 'justify'
+            }}>
+              Stroubles Creek is an impaired waterbody located downstream of Webb Branch and Central Branch. The urban headwaters emit a large amount of sediment and urban pollution into the creek during rainstorms. Stroubles Creek is a well-studied creek as it continues downstream through fields containing agriculture and livestock. The Stroubles Creek is a sub-watershed of the New River Watershed, but LEWAS is interested in capturing acute hydrologic events and urban pollution at the headwaters.
+            </p>
+            <p style={{ 
+              maxWidth: '90vw', 
+              width: '90vw', 
+              minWidth: '90vw',
+              margin: '0 0 1.5rem 0',
+              fontSize: '1.1rem',
+              color: '#2c3e50',
+              lineHeight: '1.8',
+              textAlign: 'justify'
+            }}>
+              Throughout the years, LEWAS has documented record flooding events, water main breaks, road salt runoff, and illicit discharges that may have gone unnoticed without high-frequency real-time environmental data.
+            </p>
+            <p style={{ 
+              maxWidth: '90vw', 
+              width: '90vw', 
+              minWidth: '90vw',
+              margin: '0 0 1.5rem 0',
+              fontSize: '1.1rem',
+              color: '#2c3e50',
+              lineHeight: '1.8',
+              textAlign: 'justify'
+            }}>
+              If you would like to visit the LEWAS monitoring station, it is located near North Hahn Hall, just off of West Campus Drive, downstream of the Perry Street parking lots, and upstream of the Duck Pond.
+            </p>
           </div>
         </section>
 
@@ -76,215 +152,186 @@ export default function Home() {
 
       <style jsx>{`
         .home-container {
-          max-width: 1200px;
+          width: 100%;
+          max-width: 100vw;
           margin: 0 auto;
-          padding: 2rem 1rem;
+          padding: 2rem;
+          overflow-x: hidden;
         }
 
-        /* Hero Section */
-        .hero-section {
-          text-align: center;
-          padding: 3rem 0 4rem;
-          background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-          border-radius: 12px;
+        /* Main Content Section */
+        .main-content-section {
           margin-bottom: 3rem;
+          width: 100%;
+          max-width: 100%;
         }
 
-        .hero-content {
-          max-width: 800px;
-          margin: 0 auto;
-          padding: 0 2rem;
+        .content-text {
+          width: 100%;
+          max-width: 100%;
+          margin: 0 auto 3rem;
+          text-align: left;
+          overflow-wrap: break-word;
+          word-wrap: break-word;
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          align-items: center;
         }
 
-        .hero-title {
-          font-size: 3rem;
-          font-weight: 700;
-          color: #2c3e50;
-          margin-bottom: 0.5rem;
-          letter-spacing: -0.02em;
-        }
-
-        .hero-subtitle {
-          font-size: 1.5rem;
-          font-weight: 400;
-          color: #34495e;
-          margin-bottom: 1.5rem;
-        }
-
-        .hero-description {
+        .content-text p {
           font-size: 1.1rem;
-          color: #5a6c7d;
-          line-height: 1.6;
-          max-width: 600px;
-          margin: 0 auto;
+          color: #2c3e50;
+          line-height: 1.8;
+          margin-bottom: 1.5rem;
+          text-align: justify;
+          max-width: 100%;
+          overflow-wrap: break-word;
+          word-wrap: break-word;
         }
 
-        /* Navigation Section */
-        .navigation-section {
-          margin-bottom: 4rem;
-        }
-
-        .nav-grid {
-          display: grid;
-          grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-          gap: 2rem;
+        /* Image Section */
+        .image-section {
+          display: flex;
+          justify-content: center;
           margin-bottom: 2rem;
         }
 
-        .nav-card-link {
-          text-decoration: none;
-          color: inherit;
-          display: block;
-        }
-
-        .nav-card {
-          background: white;
+        .watershed-image {
           border-radius: 12px;
-          padding: 2rem;
-          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-          border: 2px solid transparent;
-          transition: all 0.3s ease;
-          position: relative;
-          overflow: hidden;
+          box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+          max-width: 100%;
+          height: auto;
         }
 
-        .nav-card:hover {
-          transform: translateY(-4px);
-          box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+        /* Additional Text Section */
+        .additional-text {
+          display: flex;
+          justify-content: center;
+          margin-bottom: 2rem;
         }
 
-        .nav-card.primary {
-          border-color: #3498db;
-        }
-
-        .nav-card.primary:hover {
-          border-color: #2980b9;
-          background: linear-gradient(135deg, #ffffff 0%, #f8fbff 100%);
-        }
-
-        .nav-card.secondary {
-          border-color: #9b59b6;
-        }
-
-        .nav-card.secondary:hover {
-          border-color: #8e44ad;
-          background: linear-gradient(135deg, #ffffff 0%, #faf8ff 100%);
-        }
-
-        .nav-card.tertiary {
-          border-color: #e67e22;
-        }
-
-        .nav-card.tertiary:hover {
-          border-color: #d35400;
-          background: linear-gradient(135deg, #ffffff 0%, #fffaf8 100%);
-        }
-
-        .nav-card-icon {
-          font-size: 2.5rem;
-          margin-bottom: 1rem;
-        }
-
-        .nav-card h3 {
-          font-size: 1.4rem;
-          font-weight: 600;
-          margin-bottom: 0.75rem;
-          color: #2c3e50;
-        }
-
-        .nav-card p {
-          color: #5a6c7d;
-          line-height: 1.5;
-          margin-bottom: 1rem;
-        }
-
-        .nav-card-arrow {
-          position: absolute;
-          top: 1.5rem;
-          right: 1.5rem;
-          font-size: 1.5rem;
-          opacity: 0.5;
-          transition: all 0.3s ease;
-        }
-
-        .nav-card:hover .nav-card-arrow {
-          opacity: 1;
-          transform: translateX(4px);
-        }
-
-        /* Info Section */
-        .info-section {
-          margin-bottom: 3rem;
-        }
-
-        .info-grid {
-          display: grid;
-          grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-          gap: 1.5rem;
-        }
-
-        .info-card {
-          background: #f8f9fa;
-          padding: 1.5rem;
-          border-radius: 8px;
-          border-left: 4px solid #3498db;
-        }
-
-        .info-card h4 {
+        .additional-text p {
           font-size: 1.1rem;
-          font-weight: 600;
           color: #2c3e50;
-          margin-bottom: 0.5rem;
+          line-height: 1.8;
+          margin-bottom: 1.5rem;
+          text-align: justify;
+          max-width: 100%;
+          overflow-wrap: break-word;
+          word-wrap: break-word;
         }
 
-        .info-card p {
-          color: #5a6c7d;
-          font-size: 0.95rem;
-          line-height: 1.4;
+        /* Site Image Section */
+        .site-image-section {
+          display: flex;
+          justify-content: center;
+          margin-bottom: 2rem;
         }
 
-        /* Notice Section */
+        .site-image {
+          border-radius: 12px;
+          box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+          max-width: 100%;
+          height: auto;
+        }
+
+        /* Third Text Block Section */
+        .third-text-block {
+          width: 100%;
+          max-width: 100%;
+          margin: 0 auto 3rem;
+          text-align: left;
+          overflow-wrap: break-word;
+          word-wrap: break-word;
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          align-items: center;
+        }
+
+        .third-text-block p {
+          font-size: 1.1rem;
+          color: #2c3e50;
+          line-height: 1.8;
+          margin-bottom: 1.5rem;
+          text-align: justify;
+          max-width: 100%;
+          overflow-wrap: break-word;
+          word-wrap: break-word;
+        }
+
+        /* Development Notice */
         .notice-section {
-          margin-top: 3rem;
+          margin-top: 4rem;
+          padding: 2rem;
+          background-color: #f9f9f9;
+          border-radius: 12px;
+          border: 1px solid #e0e0e0;
         }
 
         .development-notice {
-          background: linear-gradient(135deg, #fff3cd 0%, #ffeaa7 100%);
-          border: 1px solid #ffc107;
-          border-radius: 8px;
-          padding: 1.5rem;
           display: flex;
           align-items: center;
           gap: 1rem;
+          color: #333;
+          font-size: 1.1rem;
         }
 
         .notice-icon {
-          font-size: 1.5rem;
-          flex-shrink: 0;
+          font-size: 2rem;
         }
 
         .notice-content p {
           margin: 0;
-          color: #856404;
-          font-size: 0.95rem;
+          line-height: 1.6;
         }
 
         /* Responsive Design */
         @media (max-width: 768px) {
-          .hero-title {
-            font-size: 2.2rem;
+          .home-container {
+            padding: 1rem;
           }
 
-          .hero-subtitle {
-            font-size: 1.3rem;
+          .content-text {
+            margin-bottom: 2rem;
           }
 
-          .nav-grid {
-            grid-template-columns: 1fr;
+          .content-text p {
+            font-size: 1rem;
+            text-align: left;
           }
 
-          .info-grid {
-            grid-template-columns: 1fr;
+          .watershed-image {
+            width: 100%;
+            height: auto;
+          }
+
+          .additional-text {
+            margin-bottom: 2rem;
+          }
+
+          .site-image-section {
+            margin-bottom: 2rem;
+          }
+
+          .site-image {
+            width: 100%;
+            height: auto;
+          }
+
+          .third-text-block {
+            margin-bottom: 2rem;
+          }
+
+          .third-text-block p {
+            font-size: 1rem;
+            text-align: left;
+          }
+
+          .notice-section {
+            margin-top: 2rem;
+            padding: 1.5rem;
           }
 
           .development-notice {

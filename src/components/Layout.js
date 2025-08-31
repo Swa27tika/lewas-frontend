@@ -2,6 +2,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
+import Image from 'next/image';
 
 const Layout = ({ children, title = 'LEWAS Lab Data' }) => {
     const router = useRouter();
@@ -14,7 +15,15 @@ const Layout = ({ children, title = 'LEWAS Lab Data' }) => {
             </Head>
             <div className="container">
                 <header>
-                    <h1>{title}</h1>
+                    <div className="logo-container">
+                        <Image 
+                            src="/images/logo.png" 
+                            alt="LEWAS Lab Logo" 
+                            width={540} 
+                            height={144} 
+                            priority
+                        />
+                    </div>
                     <nav>
                         <div className="nav-links">
                             <Link href="/" className={`nav-link ${router.pathname === '/' ? 'active' : ''}`}>
@@ -55,10 +64,11 @@ const Layout = ({ children, title = 'LEWAS Lab Data' }) => {
                     padding: 1rem 2rem;
                 }
                 
-                header h1 {
-                    margin: 0 0 1rem 0;
-                    color: #333;
-                    font-size: 2rem;
+                .logo-container {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-bottom: 1rem;
                 }
                 
                 nav {
@@ -93,7 +103,7 @@ const Layout = ({ children, title = 'LEWAS Lab Data' }) => {
                 
                 main {
                     flex: 1;
-                    padding: 2rem;
+                    padding: 0;
                 }
                 
                 footer {
