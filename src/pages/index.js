@@ -34,7 +34,7 @@ export default function Home() {
               lineHeight: '1.8',
               textAlign: 'justify'
             }}>
-              The LEWAS monitoring site is installed at the outfall of the Webb Branch watershed on Virginia Tech's campus. 
+              The LEWAS monitoring site is installed at the outfall of the Webb Branch watershed on Virginia Tech&apos;s campus. 
               Webb Branch is an urban stream with a 2.78 square kilometer (about one square mile) watershed consisting of 
               residential and commercial properties. The stream is routed through man-made channels and culverts until it 
               discharges at the LEWAS monitoring site.
@@ -67,7 +67,7 @@ export default function Home() {
               lineHeight: '1.8',
               textAlign: 'justify'
             }}>
-              In order to capture the acute hydrologic activity due to impervious pavement in urban watersheds, the monitoring station collects water quality and flow data at high frequencies. A water quality Sonde collects water temperature, pH, dissolved oxygen, turbidity, specific conductivity, and oxidation reduction potential data every three minutes. An acoustic Doppler current profiler (ADCP) collects velocity of the water every minute which is used to calculate the stream's flow rate. These parameters, along with weather data from the Vaisala transmitter and videos from the on-site camera, provide an opportunity for individuals to experience the health of the urban stream and watershed.
+              In order to capture the acute hydrologic activity due to impervious pavement in urban watersheds, the monitoring station collects water quality and flow data at high frequencies. A water quality Sonde collects water temperature, pH, dissolved oxygen, turbidity, specific conductivity, and oxidation reduction potential data every three minutes. An acoustic Doppler current profiler (ADCP) collects velocity of the water every minute which is used to calculate the stream&apos;s flow rate. These parameters, along with weather data from the Vaisala transmitter and videos from the on-site camera, provide an opportunity for individuals to experience the health of the urban stream and watershed.
             </p>
           </div>
 
