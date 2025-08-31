@@ -97,7 +97,7 @@ export default function Home() {
               lineHeight: '1.8',
               textAlign: 'justify'
             }}>
-              The LEWAS monitoring station is unique because the instant the data is collected from the sensors individuals can view it online. A Raspberry Pi is a microcontroller at the monitoring station connected to the sensors and wireless internet router. The data travels from the sensors through Virginia Tech's wireless network into the LEWAS database. The Online Watershed Learning System (OWLS) is a website which allows students, researchers, or community members to view and download the real-time data.
+              The LEWAS monitoring station is unique because the instant the data is collected from the sensors individuals can view it online. A Raspberry Pi is a microcontroller at the monitoring station connected to the sensors and wireless internet router. The data travels from the sensors through Virginia Tech&apos;s wireless network into the LEWAS database. The Online Watershed Learning System (OWLS) is a website which allows students, researchers, or community members to view and download the real-time data.
             </p>
             <p style={{ 
               maxWidth: '90vw', 
