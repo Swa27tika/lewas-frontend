@@ -91,7 +91,7 @@ export default function Publications() {
                         textAlign: 'left',
                         margin: '0'
                       }}>
-                        <span style={{ fontWeight: '400' }}>{pub.authors}</span>, "{pub.title}," <span style={{ fontStyle: 'italic' }}>{pub.publication}</span>
+                        <span style={{ fontWeight: '400' }}>{pub.authors}</span>, &ldquo;{pub.title},&rdquo; <span style={{ fontStyle: 'italic' }}>{pub.publication}</span>
                         {pub.doi && (
                           <a 
                             href={`https://doi.org/${pub.doi}`}
@@ -145,7 +145,7 @@ export default function Publications() {
                         textAlign: 'left',
                         margin: '0'
                       }}>
-                        <span style={{ fontWeight: '400' }}>{pub.authors}</span>, "{pub.title}," <span style={{ fontStyle: 'italic' }}>{pub.publication}</span>
+                        <span style={{ fontWeight: '400' }}>{pub.authors}</span>, &ldquo;{pub.title},&rdquo; <span style={{ fontStyle: 'italic' }}>{pub.publication}</span>
                         {pub.url && (
                           <a 
                             href={pub.url}
@@ -199,7 +199,7 @@ export default function Publications() {
                         textAlign: 'left',
                         margin: '0'
                       }}>
-                        <span style={{ fontWeight: '400' }}>{pub.author}</span>, "{pub.title}," <span style={{ fontStyle: 'italic' }}>{pub.type}</span>, {pub.department}, {pub.institution}, Blacksburg, VA, USA, {pub.date}
+                        <span style={{ fontWeight: '400' }}>{pub.author}</span>, &ldquo;{pub.title},&rdquo; <span style={{ fontStyle: 'italic' }}>{pub.type}</span>, {pub.department}, {pub.institution}, Blacksburg, VA, USA, {pub.date}
                       </p>
                     </div>
                   </div>
