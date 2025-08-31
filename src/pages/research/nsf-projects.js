@@ -118,7 +118,7 @@ export default function NSFProjects() {
                 <div style={{ flex: '1', width: '100%' }}>
                   <div style={{ color: '#1f2937', lineHeight: '1.6', width: '100%' }}>
                     <p style={{ width: '100%', textAlign: 'left', margin: '0' }}>
-                      <span style={{ fontWeight: '400' }}>C. Vatral</span>, "Design and Development of Educational Technology to Support Collaborative Debriefing for Nurse Training," <span style={{ fontStyle: 'italic' }}>Ph.D. dissertation</span>, Dept. Comput. Sci., Vanderbilt University, Nashville, TN, USA, 2024.
+                      <span style={{ fontWeight: '400' }}>C. Vatral</span>, &quot;Design and Development of Educational Technology to Support Collaborative Debriefing for Nurse Training,&quot; <span style={{ fontStyle: 'italic' }}>Ph.D. dissertation</span>, Dept. Comput. Sci., Vanderbilt University, Nashville, TN, USA, 2024.
                     </p>
                   </div>
                 </div>
@@ -128,7 +128,7 @@ export default function NSFProjects() {
                 <div style={{ flex: '1', width: '100%' }}>
                   <div style={{ color: '#1f2937', lineHeight: '1.6', width: '100%' }}>
                     <p style={{ width: '100%', textAlign: 'left', margin: '0' }}>
-                      <span style={{ fontWeight: '400' }}>C. Snyder</span>, "Understanding Students&apos; Collaborative Problem-Solving during STEM+C Learning Using Multimodal Analysis," <span style={{ fontStyle: 'italic' }}>Ph.D. dissertation</span>, Dept. Comput. Sci., Vanderbilt University, Nashville, TN, USA, 2024.
+                      <span style={{ fontWeight: '400' }}>C. Snyder</span>, &quot;Understanding Students&apos; Collaborative Problem-Solving during STEM+C Learning Using Multimodal Analysis,&quot; <span style={{ fontStyle: 'italic' }}>Ph.D. dissertation</span>, Dept. Comput. Sci., Vanderbilt University, Nashville, TN, USA, 2024.
                     </p>
                   </div>
                 </div>
@@ -138,7 +138,7 @@ export default function NSFProjects() {
                 <div style={{ flex: '1', width: '100%' }}>
                   <div style={{ color: '#1f2937', lineHeight: '1.6', width: '100%' }}>
                     <p style={{ width: '100%', textAlign: 'left', margin: '0' }}>
-                      <span style={{ fontWeight: '400' }}>Md. Y. Naseri</span>, "Data science for multisectoral water use management and STEM Education: A Synergistic Approach," <span style={{ fontStyle: 'italic' }}>Ph.D. dissertation</span>, Dept. Civil Eng., Virginia Polytechnic Institute and State Univ., Blacksburg, VA, USA, 2025. (Expected defense: Aug. 25, 2025)
+                      <span style={{ fontWeight: '400' }}>Md. Y. Naseri</span>, &quot;Data science for multisectoral water use management and STEM Education: A Synergistic Approach,&quot; <span style={{ fontStyle: 'italic' }}>Ph.D. dissertation</span>, Dept. Civil Eng., Virginia Polytechnic Institute and State Univ., Blacksburg, VA, USA, 2025. (Expected defense: Aug. 25, 2025)
                     </p>
                   </div>
                 </div>
@@ -148,7 +148,7 @@ export default function NSFProjects() {
                 <div style={{ flex: '1', width: '100%' }}>
                   <div style={{ color: '#1f2937', lineHeight: '1.6', width: '100%' }}>
                     <p style={{ width: '100%', textAlign: 'left', margin: '0' }}>
-                      <span style={{ fontWeight: '400' }}>H. Workneh</span>, "Physics-guided machine learning for streamflow prediction," <span style={{ fontStyle: 'italic' }}>Ph.D. dissertation</span>, Dept. Comput. Data Sci. Eng., North Carolina A&T State Univ., Greensboro, NC, USA, 2025.
+                      <span style={{ fontWeight: '400' }}>H. Workneh</span>, &quot;Physics-guided machine learning for streamflow prediction,&quot; <span style={{ fontStyle: 'italic' }}>Ph.D. dissertation</span>, Dept. Comput. Data Sci. Eng., North Carolina A&T State Univ., Greensboro, NC, USA, 2025.
                     </p>
                   </div>
                 </div>
@@ -158,7 +158,7 @@ export default function NSFProjects() {
                 <div style={{ flex: '1', width: '100%' }}>
                   <div style={{ color: '#1f2937', lineHeight: '1.6', width: '100%' }}>
                     <p style={{ width: '100%', textAlign: 'left', margin: '0' }}>
-                      <span style={{ fontWeight: '400' }}>M. A. Mollah</span>, '[Title of dissertation should be added]," <span style={{ fontStyle: 'italic' }}>Ph.D. dissertation</span>, Dept. Agricult. Environ. Syst., North Carolina A&T State Univ., Greensboro, NC, USA, 2028. [Partially funded, one semester]
+                      <span style={{ fontWeight: '400' }}>M. A. Mollah</span>, &apos;[Title of dissertation should be added],&quot; <span style={{ fontStyle: 'italic' }}>Ph.D. dissertation</span>, Dept. Agricult. Environ. Syst., North Carolina A&T State Univ., Greensboro, NC, USA, 2028. [Partially funded, one semester]
                     </p>
                   </div>
                 </div>
@@ -175,7 +175,7 @@ export default function NSFProjects() {
                 <div style={{ flex: '1', width: '100%' }}>
                   <div style={{ color: '#1f2937', lineHeight: '1.6', width: '100%' }}>
                     <p style={{ width: '100%', textAlign: 'left', margin: '0' }}>
-                      <span style={{ fontWeight: '400' }}>D. Asamen</span>, "Stream stability analysis medium size streambed material D50," <span style={{ fontStyle: 'italic' }}>M.S. thesis</span>, Dept. Civil, Archit., Environ. Eng., North Carolina A&T State Univ., Greensboro, NC, USA, 2021.
+                      <span style={{ fontWeight: '400' }}>D. Asamen</span>, &quot;Stream stability analysis medium size streambed material D50,&quot; <span style={{ fontStyle: 'italic' }}>M.S. thesis</span>, Dept. Civil, Archit., Environ. Eng., North Carolina A&T State Univ., Greensboro, NC, USA, 2021.
                     </p>
                   </div>
                 </div>
@@ -185,7 +185,7 @@ export default function NSFProjects() {
                 <div style={{ flex: '1', width: '100%' }}>
                   <div style={{ color: '#1f2937', lineHeight: '1.6', width: '100%' }}>
                     <p style={{ width: '100%', textAlign: 'left', margin: '0' }}>
-                      <span style={{ fontWeight: '400' }}>S. Bhandari</span>, "Land suitability analysis for crop production using geospatial technology: a case study in the three diverse regions of North Carolina," <span style={{ fontStyle: 'italic' }}>M.S. thesis</span>, Dept. Civil, Archit., Environ. Eng., North Carolina A&T State Univ., Greensboro, NC, USA, 2023.
+                      <span style={{ fontWeight: '400' }}>S. Bhandari</span>, &quot;Land suitability analysis for crop production using geospatial technology: a case study in the three diverse regions of North Carolina,&quot; <span style={{ fontStyle: 'italic' }}>M.S. thesis</span>, Dept. Civil, Archit., Environ. Eng., North Carolina A&T State Univ., Greensboro, NC, USA, 2023.
                     </p>
                   </div>
                 </div>
@@ -195,7 +195,7 @@ export default function NSFProjects() {
                 <div style={{ flex: '1', width: '100%' }}>
                   <div style={{ color: '#1f2937', lineHeight: '1.6', width: '100%' }}>
                     <p style={{ width: '100%', textAlign: 'left', margin: '0' }}>
-                      <span style={{ fontWeight: '400' }}>S. Roy</span>, "Fate of Amoxycillin in hybrid constructed wetlands," <span style={{ fontStyle: 'italic' }}>M.S. thesis</span>, Dept. Agricult. Environ. Syst., North Carolina A&T State Univ., Greensboro, NC, USA, 2025.
+                      <span style={{ fontWeight: '400' }}>S. Roy</span>, &quot;Fate of Amoxycillin in hybrid constructed wetlands,&quot; <span style={{ fontStyle: 'italic' }}>M.S. thesis</span>, Dept. Agricult. Environ. Syst., North Carolina A&T State Univ., Greensboro, NC, USA, 2025.
                     </p>
                   </div>
                 </div>
@@ -205,7 +205,7 @@ export default function NSFProjects() {
                 <div style={{ flex: '1', width: '100%' }}>
                   <div style={{ color: '#1f2937', lineHeight: '1.6', width: '100%' }}>
                     <p style={{ width: '100%', textAlign: 'left', margin: '0' }}>
-                      <span style={{ fontWeight: '400' }}>F. H. Pernaleta</span>, "Evaluating stress and attention in response to university food pantry outreach using EEG & eye-tracking," <span style={{ fontStyle: 'italic' }}>M.S. thesis</span>, Dept. Ind. Syst. Eng., North Carolina A&T State Univ., Greensboro, NC, USA, 2026. [Partially funded, one semester]
+                      <span style={{ fontWeight: '400' }}>F. H. Pernaleta</span>, &quot;Evaluating stress and attention in response to university food pantry outreach using EEG & eye-tracking,&quot; <span style={{ fontStyle: 'italic' }}>M.S. thesis</span>, Dept. Ind. Syst. Eng., North Carolina A&T State Univ., Greensboro, NC, USA, 2026. [Partially funded, one semester]
                     </p>
                   </div>
                 </div>
@@ -222,7 +222,7 @@ export default function NSFProjects() {
                 <div style={{ flex: '1', width: '100%' }}>
                   <div style={{ color: '#1f2937', lineHeight: '1.6', width: '100%' }}>
                     <p style={{ width: '100%', textAlign: 'left', margin: '0' }}>
-                      <span style={{ fontWeight: '400' }}>Md. Y. Naseri, V. K. Lohani, M. K. Jha, C. Snyder, and G. Biswas</span>, "Integration of data science modules across interdisciplinary courses at multiple institutions: Analysis of students&apos; and faculty perspectives," in Proc. 2025 Amer. Soc. Eng. Educ. Annu. Conf., Montreal, Canada, Jun. 22-25, 2025.
+                      <span style={{ fontWeight: '400' }}>Md. Y. Naseri, V. K. Lohani, M. K. Jha, C. Snyder, and G. Biswas</span>, &quot;Integration of data science modules across interdisciplinary courses at multiple institutions: Analysis of students&apos; and faculty perspectives,&quot; in Proc. 2025 Amer. Soc. Eng. Educ. Annu. Conf., Montreal, Canada, Jun. 22-25, 2025.
                     </p>
                   </div>
                 </div>
@@ -232,7 +232,7 @@ export default function NSFProjects() {
                 <div style={{ flex: '1', width: '100%' }}>
                   <div style={{ color: '#1f2937', lineHeight: '1.6', width: '100%' }}>
                     <p style={{ width: '100%', textAlign: 'left', margin: '0' }}>
-                      <span style={{ fontWeight: '400' }}>C. Sear, and L. Marston</span>, "Using GPT personas in the classroom to develop holistic solutions to complex environmental challenges," presented at the Univ. Council Water Resources (UCOWR) Conf., Minneapolis, MN, USA, Jun. 4, 2025.
+                      <span style={{ fontWeight: '400' }}>C. Sear, and L. Marston</span>, &quot;Using GPT personas in the classroom to develop holistic solutions to complex environmental challenges,&quot; presented at the Univ. Council Water Resources (UCOWR) Conf., Minneapolis, MN, USA, Jun. 4, 2025.
                     </p>
                   </div>
                 </div>
@@ -242,7 +242,7 @@ export default function NSFProjects() {
                 <div style={{ flex: '1', width: '100%' }}>
                   <div style={{ color: '#1f2937', lineHeight: '1.6', width: '100%' }}>
                     <p style={{ width: '100%', textAlign: 'left', margin: '0' }}>
-                      <span style={{ fontWeight: '400' }}>D. Varshney, Md. Y. Naseri, A. Kothyari, J. Smith, and V. K. Lohani</span>, "Smart environmental monitoring: An AI-driven approach to watershed data integration and access," presented at the Research Creative Scholarship Conf., Virginia Tech, Blacksburg, VA, USA, Apr. 25, 2025
+                      <span style={{ fontWeight: '400' }}>D. Varshney, Md. Y. Naseri, A. Kothyari, J. Smith, and V. K. Lohani</span>, &quot;Smart environmental monitoring: An AI-driven approach to watershed data integration and access,&quot; presented at the Research Creative Scholarship Conf., Virginia Tech, Blacksburg, VA, USA, Apr. 25, 2025
                     </p>
                   </div>
                 </div>
@@ -252,7 +252,7 @@ export default function NSFProjects() {
                 <div style={{ flex: '1', width: '100%' }}>
                   <div style={{ color: '#1f2937', lineHeight: '1.6', width: '100%' }}>
                     <p style={{ width: '100%', textAlign: 'left', margin: '0' }}>
-                      <span style={{ fontWeight: '400' }}>C. Sear and L. Marston</span>, "Using GPT personas in the classroom to develop holistic solutions to complex environmental challenges," presented at the Amer. Geophys. Union Fall Meeting, Washington, DC, USA, Dec. 12, 2024.
+                      <span style={{ fontWeight: '400' }}>C. Sear and L. Marston</span>, &quot;Using GPT personas in the classroom to develop holistic solutions to complex environmental challenges,&quot; presented at the Amer. Geophys. Union Fall Meeting, Washington, DC, USA, Dec. 12, 2024.
                     </p>
                   </div>
                 </div>
@@ -262,7 +262,7 @@ export default function NSFProjects() {
                 <div style={{ flex: '1', width: '100%' }}>
                   <div style={{ color: '#1f2937', lineHeight: '1.6', width: '100%' }}>
                     <p style={{ width: '100%', textAlign: 'left', margin: '0' }}>
-                      <span style={{ fontWeight: '400' }}>Md. Y. Naseri et al.</span>, "Integrating data science into multi-university undergraduate STEM courses: Lessons learned," presented at the 2024 Frontiers Educ. Conf., Washington, DC, USA, Oct. 13-16, 2024.
+                      <span style={{ fontWeight: '400' }}>Md. Y. Naseri et al.</span>, &quot;Integrating data science into multi-university undergraduate STEM courses: Lessons learned,&quot; presented at the 2024 Frontiers Educ. Conf., Washington, DC, USA, Oct. 13-16, 2024.
                     </p>
                   </div>
                 </div>
@@ -272,7 +272,7 @@ export default function NSFProjects() {
                 <div style={{ flex: '1', width: '100%' }}>
                   <div style={{ color: '#1f2937', lineHeight: '1.6', width: '100%' }}>
                     <p style={{ width: '100%', textAlign: 'left', margin: '0' }}>
-                      <span style={{ fontWeight: '400' }}>D. Varshney, Md. Y. Naseri, A. Kothyari, and V. K. Lohani</span>, "AI-enhanced teaching assistant: Bridging instructor knowledge and web intelligence," presented at the Summer Conf. Office Undergraduate Research, Virginia Tech, Blacksburg, VA, USA, Jul. 25, 2024.
+                      <span style={{ fontWeight: '400' }}>D. Varshney, Md. Y. Naseri, A. Kothyari, and V. K. Lohani</span>, &quot;AI-enhanced teaching assistant: Bridging instructor knowledge and web intelligence,&quot; presented at the Summer Conf. Office Undergraduate Research, Virginia Tech, Blacksburg, VA, USA, Jul. 25, 2024.
                     </p>
                   </div>
                 </div>
@@ -282,7 +282,7 @@ export default function NSFProjects() {
                 <div style={{ flex: '1', width: '100%' }}>
                   <div style={{ color: '#1f2937', lineHeight: '1.6', width: '100%' }}>
                     <p style={{ width: '100%', textAlign: 'left', margin: '0' }}>
-                      <span style={{ fontWeight: '400' }}>D. Varshney, Md. Y. Naseri, A. Kothyari, and V. K. Lohani</span>, "Development of an AI-assisted chatbot for a water monitoring environment lab," presented at the Summer Conf. Office Undergraduate Research, Virginia Tech, Blacksburg, VA, USA, Jul. 25, 2024.
+                      <span style={{ fontWeight: '400' }}>D. Varshney, Md. Y. Naseri, A. Kothyari, and V. K. Lohani</span>, &quot;Development of an AI-assisted chatbot for a water monitoring environment lab,&quot; presented at the Summer Conf. Office Undergraduate Research, Virginia Tech, Blacksburg, VA, USA, Jul. 25, 2024.
                     </p>
                   </div>
                 </div>
@@ -292,7 +292,7 @@ export default function NSFProjects() {
                 <div style={{ flex: '1', width: '100%' }}>
                   <div style={{ color: '#1f2937', lineHeight: '1.6', width: '100%' }}>
                     <p style={{ width: '100%', textAlign: 'left', margin: '0' }}>
-                      <span style={{ fontWeight: '400' }}>Md. Y. Naseri et al.</span>, "Integrating data science into multi-university undergraduate STEM courses: Lessons learned," presented at the 2024 IUSE Summit, Washington, DC, USA, Jun. 16-18, 2024.
+                      <span style={{ fontWeight: '400' }}>Md. Y. Naseri et al.</span>, &quot;Integrating data science into multi-university undergraduate STEM courses: Lessons learned,&quot; presented at the 2024 IUSE Summit, Washington, DC, USA, Jun. 16-18, 2024.
                     </p>
                   </div>
                 </div>
@@ -302,7 +302,7 @@ export default function NSFProjects() {
                 <div style={{ flex: '1', width: '100%' }}>
                   <div style={{ color: '#1f2937', lineHeight: '1.6', width: '100%' }}>
                     <p style={{ width: '100%', textAlign: 'left', margin: '0' }}>
-                      <span style={{ fontWeight: '400' }}>Md. Y. Naseri et al.</span>, "A modular approach for integrating data science concepts into multiple undergraduate STEM+C courses," presented at the 2022 Amer. Soc. Eng. Educ. Annu. Conf., Minneapolis, MN, USA, Jun. 26-29, 2022.
+                      <span style={{ fontWeight: '400' }}>Md. Y. Naseri et al.</span>, &quot;A modular approach for integrating data science concepts into multiple undergraduate STEM+C courses,&quot; presented at the 2022 Amer. Soc. Eng. Educ. Annu. Conf., Minneapolis, MN, USA, Jun. 26-29, 2022.
                     </p>
                   </div>
                 </div>
@@ -312,7 +312,7 @@ export default function NSFProjects() {
                 <div style={{ flex: '1', width: '100%' }}>
                   <div style={{ color: '#1f2937', lineHeight: '1.6', width: '100%' }}>
                     <p style={{ width: '100%', textAlign: 'left', margin: '0' }}>
-                      <span style={{ fontWeight: '400' }}>C. Snyder et al.</span>, "Understanding data science instruction in multiple STEM disciplines," presented at the 2021 Amer. Soc. Eng. Educ. Annu. Conf., Virtual, Jul. 26-29, 2021.
+                      <span style={{ fontWeight: '400' }}>C. Snyder et al.</span>, &quot;Understanding data science instruction in multiple STEM disciplines,&quot; presented at the 2021 Amer. Soc. Eng. Educ. Annu. Conf., Virtual, Jul. 26-29, 2021.
                     </p>
                   </div>
                 </div>
@@ -329,7 +329,7 @@ export default function NSFProjects() {
                 <div style={{ flex: '1', width: '100%' }}>
                   <div style={{ color: '#1f2937', lineHeight: '1.6', width: '100%' }}>
                     <p style={{ width: '100%', textAlign: 'left', margin: '0' }}>
-                      <span style={{ fontWeight: '400' }}>Md. Y. Naseri, C. Snyder, M. K. Jha, and V. K. Lohani</span>, "Integration of data science modules across interdisciplinary courses at multiple institutions: Analysis of students&apos; and faculty perspectives," in Proc. 2025 Amer. Soc. Eng. Educ. Annu. Conf., Montreal, Canada, Jun. 22-25, 2025.
+                      <span style={{ fontWeight: '400' }}>Md. Y. Naseri, C. Snyder, M. K. Jha, and V. K. Lohani</span>, &quot;Integration of data science modules across interdisciplinary courses at multiple institutions: Analysis of students&apos; and faculty perspectives,&quot; in Proc. 2025 Amer. Soc. Eng. Educ. Annu. Conf., Montreal, Canada, Jun. 22-25, 2025.
                     </p>
                   </div>
                 </div>
@@ -339,7 +339,7 @@ export default function NSFProjects() {
                 <div style={{ flex: '1', width: '100%' }}>
                   <div style={{ color: '#1f2937', lineHeight: '1.6', width: '100%' }}>
                     <p style={{ width: '100%', textAlign: 'left', margin: '0' }}>
-                      <span style={{ fontWeight: '400' }}>Md. Y. Naseri, C. Snyder, B. Mcloughlin, S. Bhandari, N. Aryal, G. Biswas, E. Henrick, E. R. Hotchkiss, M. K. Jha, S. X. Jiang, E. C. Kern, V. K. Lohani, L. T. Marston, C. P. Vanags, and K. Xia</span>, "A modular approach for integrating data science concepts into multiple undergraduate STEM+C courses," in Proc. 2022 Amer. Soc. Eng. Educ. Annu. Conf., Minneapolis, MN, USA, Jun. 26-29, 2022. [Online]. Available: <a href="https://peer.asee.org/42010" target="_blank" rel="noopener noreferrer" style={{ color: '#16a34a', marginLeft: '8px', textDecoration: 'none' }}>🔗</a>
+                      <span style={{ fontWeight: '400' }}>Md. Y. Naseri, C. Snyder, B. Mcloughlin, S. Bhandari, N. Aryal, G. Biswas, E. Henrick, E. R. Hotchkiss, M. K. Jha, S. X. Jiang, E. C. Kern, V. K. Lohani, L. T. Marston, C. P. Vanags, and K. Xia</span>, &quot;A modular approach for integrating data science concepts into multiple undergraduate STEM+C courses,&quot; in Proc. 2022 Amer. Soc. Eng. Educ. Annu. Conf., Minneapolis, MN, USA, Jun. 26-29, 2022. [Online]. Available: <a href="https://peer.asee.org/42010" target="_blank" rel="noopener noreferrer" style={{ color: '#16a34a', marginLeft: '8px', textDecoration: 'none' }}>🔗</a>
                     </p>
                   </div>
                 </div>
@@ -349,7 +349,7 @@ export default function NSFProjects() {
                 <div style={{ flex: '1', width: '100%' }}>
                   <div style={{ color: '#1f2937', lineHeight: '1.6', width: '100%' }}>
                     <p style={{ width: '100%', textAlign: 'left', margin: '0' }}>
-                      <span style={{ fontWeight: '400' }}>C. Snyder, D. M. Asamen, Md. Y. Naseri, N. Aryal, G. Biswas, A. Dubey, E. Henrick, E. R. Hotchkiss, M. K. Jha, S. X. Jiang, E. C. Kern, V. K. Lohani, L. T. Marston, C. P. Vanags, and K. Xia</span>, "Understanding data science instruction in multiple STEM disciplines," in Proc. 2021 Amer. Soc. Eng. Educ. Annu. Conf., Virtual, Jul. 26-29, 2021. [Online]. Available: <a href="https://par.nsf.gov/biblio/10287718" target="_blank" rel="noopener noreferrer" style={{ color: '#16a34a', marginLeft: '8px', textDecoration: 'none' }}>🔗</a>
+                      <span style={{ fontWeight: '400' }}>C. Snyder, D. M. Asamen, Md. Y. Naseri, N. Aryal, G. Biswas, A. Dubey, E. Henrick, E. R. Hotchkiss, M. K. Jha, S. X. Jiang, E. C. Kern, V. K. Lohani, L. T. Marston, C. P. Vanags, and K. Xia</span>, &quot;Understanding data science instruction in multiple STEM disciplines,&quot; in Proc. 2021 Amer. Soc. Eng. Educ. Annu. Conf., Virtual, Jul. 26-29, 2021. [Online]. Available: <a href="https://par.nsf.gov/biblio/10287718" target="_blank" rel="noopener noreferrer" style={{ color: '#16a34a', marginLeft: '8px', textDecoration: 'none' }}>🔗</a>
                     </p>
                   </div>
                 </div>
@@ -366,7 +366,7 @@ export default function NSFProjects() {
                 <div style={{ flex: '1', width: '100%' }}>
                   <div style={{ color: '#1f2937', lineHeight: '1.6', width: '100%' }}>
                     <p style={{ width: '100%', textAlign: 'left', margin: '0' }}>
-                      "Hybrid NSF/IUSE Workshop 2025: Integrating Data Science into Undergraduate Science and Engineering Courses," presented at the NSF IUSE Workshop, Martin Eng. Res. Innovation Complex, North Carolina A&T State Univ., Greensboro, NC, USA, Apr. 18, 2025.
+                      &quot;Hybrid NSF/IUSE Workshop 2025: Integrating Data Science into Undergraduate Science and Engineering Courses,&quot; presented at the NSF IUSE Workshop, Martin Eng. Res. Innovation Complex, North Carolina A&T State Univ., Greensboro, NC, USA, Apr. 18, 2025.
                     </p>
                   </div>
                 </div>
@@ -376,7 +376,7 @@ export default function NSFProjects() {
                 <div style={{ flex: '1', width: '100%' }}>
                   <div style={{ color: '#1f2937', lineHeight: '1.6', width: '100%' }}>
                     <p style={{ width: '100%', textAlign: 'left', margin: '0' }}>
-                      "An Approach to Integrating Data Science into multiple STEM+C undergraduate courses," presented at the ASEE Workshop 2023, Baltimore Convention Center, Baltimore, MD, USA, Jun. 25, 2023.
+                      &quot;An Approach to Integrating Data Science into multiple STEM+C undergraduate courses,&quot; presented at the ASEE Workshop 2023, Baltimore Convention Center, Baltimore, MD, USA, Jun. 25, 2023.
                     </p>
                   </div>
                 </div>
@@ -393,7 +393,7 @@ export default function NSFProjects() {
                 <div style={{ flex: '1', width: '100%' }}>
                   <div style={{ color: '#1f2937', lineHeight: '1.6', width: '100%' }}>
                     <p style={{ width: '100%', textAlign: 'left', margin: '0' }}>
-                      <span style={{ fontWeight: '400' }}>Md. Y. Naseri et al.</span>, "Integrating data science into undergraduate science and engineering courses through discipline-specific modules: The student perspective," <span style={{ fontStyle: 'italic' }}>Eur. J. Eng. Educ.</span>, submitted for publication.
+                      <span style={{ fontWeight: '400' }}>Md. Y. Naseri et al.</span>, &quot;Integrating data science into undergraduate science and engineering courses through discipline-specific modules: The student perspective,&quot; <span style={{ fontStyle: 'italic' }}>Eur. J. Eng. Educ.</span>, submitted for publication.
                     </p>
                   </div>
                 </div>
@@ -403,7 +403,7 @@ export default function NSFProjects() {
                 <div style={{ flex: '1', width: '100%' }}>
                   <div style={{ color: '#1f2937', lineHeight: '1.6', width: '100%' }}>
                     <p style={{ width: '100%', textAlign: 'left', margin: '0' }}>
-                      <span style={{ fontWeight: '400' }}>Md. Y. Naseri et al.</span>, "Integrating data science into undergraduate science and engineering courses: Lessons learned by instructors in a multiuniversity research-practice partnership," <span style={{ fontStyle: 'italic' }}>IEEE Trans. Educ.</span>, 2024, doi: <a href="https://doi.org/10.1109/TE.2024.3436041" target="_blank" rel="noopener noreferrer" style={{ color: '#2563eb', marginLeft: '8px', textDecoration: 'none' }}>🔗</a>
+                      <span style={{ fontWeight: '400' }}>Md. Y. Naseri et al.</span>, &quot;Integrating data science into undergraduate science and engineering courses: Lessons learned by instructors in a multiuniversity research-practice partnership,&quot; <span style={{ fontStyle: 'italic' }}>IEEE Trans. Educ.</span>, 2024, doi: <a href="https://doi.org/10.1109/TE.2024.3436041" target="_blank" rel="noopener noreferrer" style={{ color: '#2563eb', marginLeft: '8px', textDecoration: 'none' }}>🔗</a>
                     </p>
                   </div>
                 </div>
