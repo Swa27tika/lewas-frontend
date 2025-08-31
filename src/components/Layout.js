@@ -29,6 +29,9 @@ const Layout = ({ children, title = 'LEWAS Lab Data' }) => {
                             <Link href="/team" className={`nav-link ${router.pathname === '/team' ? 'active' : ''}`}>
                                 Team
                             </Link>
+                            <Link href="/research" className={`nav-link ${router.pathname.startsWith('/research') ? 'active' : ''}`}>
+                                Research
+                            </Link>
                         </div>
                     </nav>
                 </header>
