@@ -47,16 +47,182 @@ export default function TeamMembers() {
         }
     ];
 
+    // Past members data
+    const pastMembers = [
+        {
+            name: "Yousef Jalali",
+            email: "yousef@vt.edu",
+            role: "PhD Student (2023)",
+            photo: "/team/youself.jpeg"
+        },
+        {
+            name: "Julia Hallworth",
+            email: "jhallworth@vt.edu",
+            role: "Undergraduate RA",
+            photo: "/team/no_photos.jpeg"
+        },
+        {
+            name: "Christine Trieu",
+            email: "christinet@vt.edu",
+            role: "Undergraduate RA",
+            photo: "/team/no_photos.jpeg"
+        },
+        {
+            name: "Dr. Randel L. Dymond",
+            email: "dymond@vt.edu",
+            role: "Assistant Director",
+            photo: "/team/dymond.jpeg"
+        },
+        {
+            name: "Debarati Basu",
+            email: "",
+            role: "PhD Student",
+            photo: "/team/no_photos.jpeg"
+        },
+        {
+            name: "Daniel Brogan",
+            email: "",
+            role: "PhD Student",
+            photo: "/team/no_photos.jpeg"
+        },
+        {
+            name: "Walter McDonald",
+            email: "",
+            role: "PhD Student",
+            photo: "/team/no_photos.jpeg"
+        },
+        {
+            name: "Bushra Chowdhury",
+            email: "",
+            role: "PhD Student",
+            photo: "/team/no_photos.jpeg"
+        },
+        {
+            name: "Todd Aronhalt",
+            email: "",
+            role: "PhD Student",
+            photo: "/team/no_photos.jpeg"
+        },
+        {
+            name: "Joshua Gozum",
+            email: "",
+            role: "PhD Student",
+            photo: "/team/no_photos.jpeg"
+        },
+        {
+            name: "James Taylor",
+            email: "",
+            role: "Undergraduate RA",
+            photo: "/team/no_photos.jpeg"
+        },
+        {
+            name: "Serena Emanuel",
+            email: "",
+            role: "Undergraduate RA",
+            photo: "/team/no_photos.jpeg"
+        },
+        {
+            name: "Nick Falls",
+            email: "",
+            role: "Undergraduate RA",
+            photo: "/team/no_photos.jpeg"
+        },
+        {
+            name: "Mathew Verghese",
+            email: "",
+            role: "Undergraduate RA",
+            photo: "/team/no_photos.jpeg"
+        },
+        {
+            name: "Chris Osterhout",
+            email: "",
+            role: "Undergraduate RA",
+            photo: "/team/no_photos.jpeg"
+        },
+        {
+            name: "Sara Freix",
+            email: "",
+            role: "Undergraduate RA",
+            photo: "/team/no_photos.jpeg"
+        },
+        {
+            name: "Trevor Jones",
+            email: "",
+            role: "Undergraduate RA",
+            photo: "/team/no_photos.jpeg"
+        },
+        {
+            name: "Leeciling Chea",
+            email: "chea97@vt.edu",
+            role: "Undergraduate RA",
+            photo: "/team/lee.jpeg"
+        },
+        {
+            name: "Nathan Moeliono",
+            email: "nathanlm@vt.edu",
+            role: "Undergraduate RA",
+            photo: "/team/nathan.jpeg"
+        },
+        {
+            name: "Derik Rangel Arone",
+            email: "derik4@vt.edu",
+            role: "Undergraduate RA",
+            photo: "/team/derik.jpeg"
+        },
+        {
+            name: "Ben Roston",
+            email: "bhroston@vt.edu",
+            role: "Graduate RA",
+            photo: "/team/no_photos.jpeg"
+        },
+        {
+            name: "Morgan Camper",
+            email: "cmorgan4@vt.edu",
+            role: "Undergraduate RA",
+            photo: "/team/morgan.jpeg"
+        },
+        {
+            name: "Uditi Goyal",
+            email: "",
+            role: "Undergraduate RA",
+            photo: "/team/no_photos.jpeg"
+        },
+        {
+            name: "Molly Sayles",
+            email: "ssmolly7@vt.edu",
+            role: "Undergraduate RA",
+            photo: "/team/molly.jpeg"
+        },
+        {
+            name: "Miriam Badre",
+            email: "mbadre@vt.edu",
+            role: "Undergraduate RA",
+            photo: "/team/no_photos.jpeg"
+        },
+        {
+            name: "Thomas Westfall",
+            email: "",
+            role: "Graduate RA",
+            photo: "/team/no_photos.jpeg"
+        },
+        {
+            name: "Angelica Melvin",
+            email: "",
+            role: "Graduate RA",
+            photo: "/team/no_photos.jpeg"
+        },
+        {
+            name: "Dylan Hondaroust",
+            email: "dylanh8@vt.edu",
+            role: "Graduate RA",
+            photo: "/team/dylan.jpeg"
+        }
+    ];
+
     return (
         <Layout title="LEWAS Lab - Team Members">
             <div className="team-container">
-                <h2>Our Team</h2>
-                <p className="team-intro">
-                    Meet the researchers and developers behind the LEWAS Lab environmental monitoring project.
-                    Our interdisciplinary team combines expertise in environmental science, software development,
-                    and civil engineering, engineering education.
-                </p>
-
+                <h3 className="section-title">Current members</h3>
                 <div className="team-grid">
                     {teamMembers.map((member, index) => (
                         <div key={index} className="team-member-card">
@@ -83,7 +249,7 @@ export default function TeamMembers() {
                 <div className="team-divider"></div>
 
                 {/* Faculty Collaborators Section */}
-                <h3 className="section-title">Faculty Collaborators</h3>
+                <h3 className="section-title">Faculty collaborators</h3>
                 <div className="team-grid">
                     {facultyCollaborators.map((collaborator, index) => (
                         <div key={`collaborator-${index}`} className="team-member-card">
@@ -101,6 +267,33 @@ export default function TeamMembers() {
                                 <h3>{collaborator.name}</h3>
                                 <p className="member-role">{collaborator.role}</p>
                                 <p className="member-email">{collaborator.email}</p>
+                            </div>
+                        </div>
+                    ))}
+                </div>
+
+                {/* Divider line */}
+                <div className="team-divider"></div>
+
+                {/* Past Members Section */}
+                <h3 className="section-title">Past members</h3>
+                <div className="team-grid">
+                    {pastMembers.map((member, index) => (
+                        <div key={`past-member-${index}`} className="team-member-card">
+                            <div className="member-photo">
+                                {/* If photo is not available, show initials */}
+                                {member.photo ? (
+                                    <img src={member.photo} alt={member.name} />
+                                ) : (
+                                    <div className="member-initials">
+                                        {member.name.split(' ').map(n => n[0]).join('')}
+                                    </div>
+                                )}
+                            </div>
+                            <div className="member-info">
+                                <h3>{member.name}</h3>
+                                <p className="member-role">{member.role}</p>
+                                <p className="member-email">{member.email}</p>
                             </div>
                         </div>
                     ))}
