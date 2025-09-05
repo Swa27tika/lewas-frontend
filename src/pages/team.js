@@ -44,6 +44,12 @@ export default function TeamMembers() {
             email: "natashabell@vt.edu",
             role: "Faculty Collaborator",
             photo: "/team/Natasha_bell.jpeg" // Add her photo to the public/team directory
+        },
+        {
+            name: "Dr. John Hoben",
+            email: "jphoben@vt.edu",
+            role: "Faculty Collaborator",
+            photo: "/team/Hoben-John.jpeg"
         }
     ];
 
