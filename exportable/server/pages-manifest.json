@@ -2,6 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/team": "pages/team.js",
+  "/research": "pages/research.js",
+  "/": "pages/index.js",
   "/research/nsf-projects": "pages/research/nsf-projects.js"
 }
