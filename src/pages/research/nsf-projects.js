@@ -106,6 +106,19 @@ export default function NSFProjects() {
             </p>
           </div>
           
+          {/* Project Workshops Subtitle */}
+          <h3 className="section-subtitle">Project&apos;s Workshops</h3>
+          
+          {/* Project Workshops Content */}
+          <div className="content-text">
+            <p>
+              <strong>Workshop 1: NCA&T Workshop</strong>
+            </p>
+            <p>
+              On June 18th, 2025, we hosted a workshop at NCA&T State University featuring six concurrent sessions led by members from our three collaborative universities. The sessions covered civil engineering, environmental science, and engineering statistics. The event drew 12 in-person and 12 virtual attendees from 15 institutions, including eight U.S. states and one foreign country. Participating universities included NCA&T State University, Michigan State University, Purdue University, Wake Technical Community College, Durham Technical Community College, Danville Community College, East Carolina University, Bennett College, the U.S. Coast Guard Academy, California State Polytechnic Humboldt, National University, the Air Force Institute of Technology, Stony Brook University, Morgan State University, and the Lebanese American University.
+            </p>
+          </div>
+          
           {/* Publications Subtitle */}
           <h3 className="section-subtitle">Project&apos;s Relevant Publications</h3>
           
