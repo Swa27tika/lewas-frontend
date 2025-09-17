@@ -120,6 +120,43 @@ export default function NSFProjects() {
             <p>
               During the workshop, presenters demonstrated their modules and guided participants through hands-on exercises. Attendees were preassigned to seven groups (three in-person, four virtual), each supported by a team mentor. An afternoon session allowed groups to collaborate and develop implementation plans. Seventeen attendees from 10 institutions—including NCA&T, Michigan State, Purdue, Wake Tech, Durham Tech, Danville Community College, ECU, Bennett College, the U.S. Coast Guard Academy, and the Lebanese American University—later presented plans to integrate our modules into their courses. These courses span diverse disciplines such as Crop Ecology, Microbiology, Soil Chemistry, Statistics/Econometrics, Economics, Environmental Science/Engineering, Hydrology, Probability and Statistics, Biostatistics, Data Science, Transportation Engineering, Engineering Design, Systems Engineering, and more. The broad adoption across these courses highlights the project&apos;s significant impact.
             </p>
+            <p>
+              We conducted a post-workshop survey to gather attendee feedback, receiving responses from 13 participants. The table below summarizes their ratings on three key questions, measured on a 5-point Likert scale (1: Strongly Disagree to 5: Strongly Agree):
+            </p>
+            
+            {/* Survey Results Table */}
+            <div className="survey-table-container">
+              <table className="survey-table">
+                <thead>
+                  <tr>
+                    <th className="question-header">Question</th>
+                    <th className="mean-header">Mean</th>
+                    <th className="std-header">Standard Deviation</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td className="question-cell">I plan to incorporate one or more modules (fully or partly) into courses at my institution.</td>
+                    <td className="mean-cell">4.79</td>
+                    <td className="std-cell">0.43</td>
+                  </tr>
+                  <tr>
+                    <td className="question-cell">The workshop helped me develop ideas for integrating data science into undergraduate courses.</td>
+                    <td className="mean-cell">4.57</td>
+                    <td className="std-cell">0.65</td>
+                  </tr>
+                  <tr>
+                    <td className="question-cell">Overall, the workshop met my expectations.</td>
+                    <td className="mean-cell">4.64</td>
+                    <td className="std-cell">0.63</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            
+            <p>
+              Feedback was overwhelmingly positive, with attendees praising the workshop&apos;s organization and impact. Representative comments included: &quot;This should be a 2-3 day workshop,&quot; &quot;I thought the workshop was well organized,&quot; and &quot;Keep holding these workshops.&quot;
+            </p>
           </div>
           
           {/* Publications Subtitle */}
@@ -545,6 +582,72 @@ export default function NSFProjects() {
           height: auto;
         }
 
+        /* Survey Table Styles */
+        .survey-table-container {
+          width: 100%;
+          max-width: 90vw;
+          margin: 2rem auto;
+          overflow-x: auto;
+        }
+
+        .survey-table {
+          width: 100%;
+          border-collapse: collapse;
+          font-family: inherit;
+          background-color: white;
+        }
+
+        .survey-table thead {
+          border-top: 1px solid #333;
+          border-bottom: 1px solid #333;
+          background-color: white;
+        }
+
+        .survey-table th {
+          background-color: white;
+          color: #2c3e50;
+        }
+
+        .survey-table tbody {
+          border-bottom: 1px solid #333;
+        }
+
+        .survey-table th,
+        .survey-table td {
+          padding: 12px 16px;
+          text-align: left;
+          vertical-align: top;
+          color: #2c3e50;
+        }
+
+        .question-header {
+          text-align: left;
+          font-weight: 600;
+        }
+
+        .mean-header,
+        .std-header {
+          text-align: center;
+          font-weight: 600;
+          width: 120px;
+        }
+
+        .question-cell {
+          text-align: left;
+          line-height: 1.4;
+        }
+
+        .mean-cell,
+        .std-cell {
+          text-align: right;
+          font-family: inherit;
+          width: 120px;
+        }
+
+        .survey-table tbody tr:hover {
+          background-color: #f8f9fa;
+        }
+
         /* Responsive Design */
         @media (max-width: 768px) {
           .nsf-project-content {
@@ -576,6 +679,23 @@ export default function NSFProjects() {
           .project-image {
             width: 100%;
             height: auto;
+          }
+
+          .survey-table-container {
+            max-width: 95vw;
+          }
+
+          .survey-table th,
+          .survey-table td {
+            padding: 8px 12px;
+            font-size: 0.9rem;
+          }
+
+          .mean-header,
+          .std-header,
+          .mean-cell,
+          .std-cell {
+            width: 80px;
           }
         }
       `}</style>
