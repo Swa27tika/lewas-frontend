@@ -3,6 +3,6 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/research": "pages/research.js",
-  "/research/nsf-projects": "pages/research/nsf-projects.js",
-  "/": "pages/index.js"
+  "/live-data": "pages/live-data.js",
+  "/research/publications": "pages/research/publications.js"
 }
