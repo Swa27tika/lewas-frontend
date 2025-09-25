@@ -218,6 +218,9 @@ export default function NSFProjects() {
               </div>
             </div>
           </section>
+          
+          
+          
 
           {/* Theses */}
           <section style={{ width: '100%', marginBottom: '2rem' }}>
@@ -463,6 +466,14 @@ export default function NSFProjects() {
               </div>
             </div>
           </section>
+          
+          {/* Other Resources Subtitle */}
+          <h3 className="section-subtitle">Other Resources</h3>
+          <div className="content-text">
+            <ul className="publication-list">
+              <li>Add links or descriptions to additional resources here.</li>
+            </ul>
+          </div>
         </div>
       </div>
 
