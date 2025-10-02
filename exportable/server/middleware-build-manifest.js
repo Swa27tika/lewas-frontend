@@ -34,6 +34,11 @@ globalThis.__BUILD_MANIFEST = {
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/research/nsf-projects.js"
+    ],
+    "/research/ongoing-studies": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/research/ongoing-studies.js"
     ]
   },
   "ampFirstPages": []

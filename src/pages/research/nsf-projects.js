@@ -437,6 +437,16 @@ export default function NSFProjects() {
                   </div>
                 </div>
               </div>
+              <div style={{ display: 'flex', alignItems: 'flex-start', width: '100%' }}>
+                <span style={{ color: '#000000', marginRight: '12px', marginTop: '4px', fontSize: '18px', flexShrink: '0' }}>•</span>
+                <div style={{ flex: '1', width: '100%' }}>
+                  <div style={{ color: '#1f2937', lineHeight: '1.6', width: '100%' }}>
+                    <p style={{ width: '100%', textAlign: 'left', margin: '0' }}>
+                      Snyder, C., Henrick, E., Pérez-Rivera K. X., Naseri, M. Y., Workneh H. A., Vanags, C., Biswas, G., Jiang, S., Jha, M., and Xia, K. (2023, June). An Approach to Integrating Data Science into multiple STEM+C undergraduate courses. Workshop in 2023 American Society Engineering Education Annual Meeting
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </section>
 
@@ -470,9 +480,64 @@ export default function NSFProjects() {
           {/* Other Resources Subtitle */}
           <h3 className="section-subtitle">Other Resources</h3>
           <div className="content-text">
-            <ul className="publication-list">
-              <li>Add links or descriptions to additional resources here.</li>
-            </ul>
+            <div className="space-y-3" style={{ width: '100%' }}>
+              <div style={{ display: 'flex', alignItems: 'flex-start', width: '100%' }}>
+                <span style={{ color: '#000000', marginRight: '12px', marginTop: '4px', fontSize: '18px', flexShrink: '0' }}>•</span>
+                <div style={{ flex: '1', width: '100%' }}>
+                  <div style={{ color: '#1f2937', lineHeight: '1.6', width: '100%' }}>
+                    <p style={{ width: '100%', textAlign: 'left', margin: '0' }}>
+                      <a href="https://drive.google.com/file/d/19yn-gLATmmxv0LGEzqRaiyKHQpUGqU-i/view?usp=sharing" target="_blank" rel="noopener noreferrer" style={{ color: '#2563eb', textDecoration: 'none' }}>
+                        Key Considerations for Data Science Integration
+                      </a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div style={{ display: 'flex', alignItems: 'flex-start', width: '100%' }}>
+                <span style={{ color: '#000000', marginRight: '12px', marginTop: '4px', fontSize: '18px', flexShrink: '0' }}>•</span>
+                <div style={{ flex: '1', width: '100%' }}>
+                  <div style={{ color: '#1f2937', lineHeight: '1.6', width: '100%' }}>
+                    <p style={{ width: '100%', textAlign: 'left', margin: '0' }}>
+                      <a href="https://docs.google.com/document/d/1bGNkQsp1yZXSNCaAIdZfGBtZGUpzF99sy2oiUNb-67I/edit?usp=sharing" target="_blank" rel="noopener noreferrer" style={{ color: '#2563eb', textDecoration: 'none' }}>
+                        Module Development Tool
+                      </a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div style={{ display: 'flex', alignItems: 'flex-start', width: '100%' }}>
+                <span style={{ color: '#000000', marginRight: '12px', marginTop: '4px', fontSize: '18px', flexShrink: '0' }}>•</span>
+                <div style={{ flex: '1', width: '100%' }}>
+                  <div style={{ color: '#1f2937', lineHeight: '1.6', width: '100%' }}>
+                    <p style={{ width: '100%', textAlign: 'left', margin: '0' }}>
+                      <a href="https://dstf.acm.org/" target="_blank" rel="noopener noreferrer" style={{ color: '#2563eb', textDecoration: 'none' }}>
+                        ACM Data Science Task Force
+                      </a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div style={{ display: 'flex', alignItems: 'flex-start', width: '100%' }}>
+                <span style={{ color: '#000000', marginRight: '12px', marginTop: '4px', fontSize: '18px', flexShrink: '0' }}>•</span>
+                <div style={{ flex: '1', width: '100%' }}>
+                  <div style={{ color: '#1f2937', lineHeight: '1.6', width: '100%' }}>
+                    <p style={{ width: '100%', textAlign: 'left', margin: '0' }}>
+                      Snyder, C., Henrick, E., Pérez-Rivera K. X., Naseri, M. Y., Workneh H. A., Vanags, C., Biswas, G., Jiang, S., Jha, M., and Xia, K. (2023, June). An Approach to Integrating Data Science into multiple STEM+C undergraduate courses. Workshop in 2023 American Society Engineering Education Annual Meeting
+                    </p>
+                  </div>
+                  <div style={{ display: 'flex', alignItems: 'flex-start', width: '100%', marginLeft: '30px', marginTop: '6px' }}>
+                    <span style={{ color: '#000000', marginRight: '10px', marginTop: '3px', fontSize: '14px', flexShrink: '0' }}>•</span>
+                    <div style={{ flex: '1', width: '100%' }}>
+                      <p style={{ width: '100%', textAlign: 'left', margin: '0' }}>
+                        <a href="https://docs.google.com/presentation/d/14fB-3Hl6OcFoadNNH_9jqn9UgmoP-xc6QM5UTgwk_co/edit?usp=sharing" target="_blank" rel="noopener noreferrer" style={{ color: '#2563eb', textDecoration: 'none' }}>
+                          Workshop Slides
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
