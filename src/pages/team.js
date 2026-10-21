@@ -12,12 +12,6 @@ export default function TeamMembers() {
             photo: "/team/vlohani.jpeg" // These photos should be placed in the public/team directory
         },
         {
-            name: "Yunus Naseri",
-            email: "mohammadyunusn@vt.edu",
-            role: "Phd Student",
-            photo: "/team/yunus.jpeg"
-        },
-        {
             name: "Akshat Kothyari",
             email: "kakshat@vt.edu",
             role: "PhD Student",
@@ -40,6 +34,12 @@ export default function TeamMembers() {
             email: "swatikam@vt.edu",
             role: "PhD Student",
             photo: "/team/swatika.jpeg"
+        },
+        {
+            name: "Olivia Brown",
+            email: "oliviabrown25@vt.edu",
+            role: "Undergraduate Student",
+            photo: "/team/olivia.jpeg"
         }
     ];
 
@@ -61,6 +61,12 @@ export default function TeamMembers() {
 
     // Past members data
     const pastMembers = [
+        {
+            name: "Yunus Naseri",
+            email: "mohammadyunusn@vt.edu",
+            role: "Phd Student",
+            photo: "/team/yunus.jpeg"
+        },
         {
             name: "Yousef Jalali",
             email: "yousef@vt.edu",
